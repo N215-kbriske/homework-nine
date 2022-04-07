@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 50px;
+  background-color: rgb(22, 25, 30);
+}
+
+footer {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(53, 58, 63);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  height: 50px;
+  background-color: rgb(53, 58, 63);
+  /* background-color: #0B0014; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lost-sector-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.lost-sector-hero {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  max-width: 1100px;
+  height: 300px;
+  background-image: url(../images/lost-sector.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.quick-stats {
+  max-width: 1100px;
+  height: 45px;
+  background-color: #f5a52c;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-weight: lighter;
+  color: white;
+  margin: 0 auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.quick-stats .power {
+  padding: 10px;
+}
+.quick-stats .champions {
+  padding: 10px;
+}
+.quick-stats .time {
+  padding: 10px;
+}
+
+.lost-sector-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1100px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.lost-sector-content .ls-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  color: orange;
+}
+.lost-sector-content hr {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.lost-sector-content .location {
+  margin-bottom: 20px;
+}
+.lost-sector-content .burn {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.lost-sector-content .burn .ls-burn {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/arc.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.lost-sector-content .shields {
+  margin-bottom: 20px;
+}
+.lost-sector-content .dif {
+  margin-bottom: 20px;
+}
+.lost-sector-content .modifiers {
+  margin-bottom: 50px;
+}
+.lost-sector-content .locationMapContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  flex-direction: column;
+  align-items: center;
+}
+.lost-sector-content .locationMapContainer .locationMap {
+  width: 1100px;
+  height: 400px;
+  background-image: url(../images/lost-sector-map.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.nightfall-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.nightfall-hero {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  max-width: 1100px;
+  height: 300px;
+  background-image: url(../images/nightfall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.quick-stats {
+  max-width: 1100px;
+  height: 45px;
+  background-color: #f5a52c;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-weight: lighter;
+  color: white;
+  margin: 0 auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.quick-stats .power {
+  padding: 10px;
+}
+.quick-stats .champions {
+  padding: 10px;
+}
+.quick-stats .time {
+  padding: 10px;
+}
+
+.nightfall-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1100px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nightfall-content .nf-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  color: orange;
+}
+.nightfall-content hr {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.nightfall-content .location {
+  margin-bottom: 20px;
+}
+.nightfall-content .burn {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.nightfall-content .burn .ls-burn {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/arc.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nightfall-content .shields {
+  margin-bottom: 20px;
+}
+.nightfall-content .dif {
+  margin-bottom: 20px;
+}
+.nightfall-content .modifiers {
+  margin-bottom: 50px;
+}
+.nightfall-content .locationMapContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  flex-direction: column;
+  align-items: center;
+}
+.nightfall-content .locationMapContainer .locationMap {
+  width: 1100px;
+  height: 400px;
+  background-image: url(../images/nightfall-map.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.raid-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.raid-hero {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  max-width: 1100px;
+  height: 300px;
+  background-image: url(../images/raid.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.quick-stats {
+  max-width: 1100px;
+  height: 45px;
+  background-color: #f5a52c;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-weight: lighter;
+  color: white;
+  margin: 0 auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.quick-stats .power {
+  padding: 10px;
+}
+.quick-stats .champions {
+  padding: 10px;
+}
+.quick-stats .time {
+  padding: 10px;
+}
+
+.raid-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1100px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.raid-content .rd-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  color: orange;
+}
+.raid-content hr {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.raid-content .location {
+  margin-bottom: 20px;
+}
+.raid-content .burn {
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.raid-content .burn .ls-burn {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/arc.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.raid-content .shields {
+  margin-bottom: 20px;
+}
+.raid-content .dif {
+  margin-bottom: 20px;
+}
+.raid-content .modifiers {
+  margin-bottom: 50px;
+}
+.raid-content .locationMapContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  flex-direction: column;
+  align-items: center;
+}
+.raid-content .locationMapContainer .locationMap {
+  width: 1100px;
+  height: 400px;
+  background-image: url(../images/raid-location.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 70px;
+}
+.raid-content .callouts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.raid-content .callouts .symbols {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.raid-content .callouts .symbolImage {
+  width: 1100px;
+  height: 400px;
+  background-image: url(../images/callouts.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 70px;
+}
+.raid-content .lootContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.raid-content .lootContainer .lootText {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.raid-content .lootContainer .lootImage {
+  width: 1100px;
+  height: 400px;
+  background-image: url(../images/loot.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.home-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.ghost-image {
+  display: flex;
+  margin: 30px auto;
+}
+
+.explain h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.ws-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.ws-hero {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  max-width: 1100px;
+  height: 300px;
+  background-image: url(../images/wellspring.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.quick-stats {
+  max-width: 1100px;
+  height: 45px;
+  background-color: #f5a52c;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-weight: lighter;
+  color: white;
+  margin: 0 auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.quick-stats .power {
+  padding: 10px;
+}
+.quick-stats .champions {
+  padding: 10px;
+}
+.quick-stats .time {
+  padding: 10px;
+}
+
+.ws-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1100px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ws-content .ws-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  color: orange;
+}
+.ws-content hr {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.ws-content .location {
+  margin-bottom: 20px;
+}
+.ws-content .burn {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.ws-content .burn .ls-burn {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/void.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ws-content .shields {
+  margin-bottom: 20px;
+}
+.ws-content .dif {
+  margin-bottom: 20px;
+}
+.ws-content .modifiers {
+  margin-bottom: 50px;
+}
+.ws-content .locationMapContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  flex-direction: column;
+  align-items: center;
+}
+.ws-content .locationMapContainer .locationMap {
+  width: 1100px;
+  height: 400px;
+  background-image: url(../images/wellspring-map.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

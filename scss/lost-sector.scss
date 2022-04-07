@@ -1,0 +1,120 @@
+.lost-sector-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.lost-sector-hero {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  max-width: 1100px;
+  height: 300px;
+  background-image: url(../images/lost-sector.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // border: 2px red solid;
+  margin: 0 auto;
+}
+
+.quick-stats {
+  max-width: 1100px;
+  height: 45px;
+  background-color: #f5a52c;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-weight: lighter;
+  color: white;
+  margin: 0 auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  .power {
+    padding: 10px;
+  }
+
+  .champions {
+    padding: 10px;
+  }
+
+  .time {
+    padding: 10px;
+  }
+}
+
+.lost-sector-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1100px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .ls-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: orange;
+  }
+
+  hr {
+    margin-top: -10px;
+    // width: 180px;
+    margin-bottom: 30px;
+  }
+
+  .location {
+    margin-bottom: 20px;
+  }
+
+  .burn {
+    width: 100px;
+    height: 30px;
+    //   border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .ls-burn {
+      width: 25px;
+      height: 25px;
+      background-image: url(../images/arc.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .shields {
+    margin-bottom: 20px;
+  }
+
+  .dif {
+    margin-bottom: 20px;
+  }
+
+  .modifiers {
+    margin-bottom: 50px;
+  }
+
+  .locationMapContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    flex-direction: column;
+    align-items: center;
+
+    .locationMap {
+      width: 1100px;
+      height: 400px;
+      background-image: url(../images/lost-sector-map.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+}

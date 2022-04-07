@@ -1,0 +1,22 @@
+.home-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.ghost-image {
+  display: flex;
+  margin: 30px auto;
+  // border: 2px solid red;
+}
+
+.explain {
+    h3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+}
