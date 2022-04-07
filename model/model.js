@@ -25,6 +25,7 @@ var lostSectorContent = `<h1 class="lost-sector-header">LOST SECTOR</h1>
   Champions
 </h2>
   <h2 class="modifiers">Modifiers: Raider Shield, Chaff</h2>
+  <hr />
   <div class="locationMapContainer">
     <div class="locationMap"></div>
   </div>
@@ -51,6 +52,7 @@ var nightfallContent = `<h1 class="nightfall-header">NIGTHFALL</h1>
     Match Game, Equipment Locked, Extinguish, Limited Revives, Champions:
     Mob, Shielded Foes, Double Vanguard Rank, Acute Arc Burn
   </h2>
+  <hr />
   <div class="locationMapContainer">
     <div class="locationMap"></div>
   </div>
@@ -75,17 +77,37 @@ var raidContent = `<h1 class="raid-header">RAID</h1>
   <h2 class="modifiers">
     Modifiers: Defenses Down: A challenge awaits...
   </h2>
+  <hr />
   <div class="locationMapContainer">
     <div class="locationMap"></div>
   </div>
-  <hr>
+  <hr />
   <div class="callouts">
     <h2 class="symbols">Symbols:</h2>
     <div class="symbolImage"></div>
   </div>
-  <hr>
+  <hr />
+  <div class="lootContainer2">
+    <h2 class="weaponText">Raid Weapons:</h2>
+    <div class="raidExotic">
+      <img
+        src="./images/weapons/collective-obligation.jpg"
+        alt=""
+        class="item"
+      />
+    </div>
+    <div class="raidWeapons">
+      <img src="./images/weapons/submission.jpg" alt="" class="item" />
+      <img src="./images/weapons/insidious.jpg" alt="" class="item" />
+      <img src="./images/weapons/deliverance.jpg" alt="" class="item" />
+      <img src="./images/weapons/forbearnance.jpg" alt="" class="item" />
+      <img src="./images/weapons/lubraes-ruin.jpg" alt="" class="item" />
+      <img src="./images/weapons/cataclysmic.jpg" alt="" class="item" />
+    </div>
+  </div>
+  <hr />
   <div class="lootContainer">
-    <h2 class="lootText">Loot:</h2>
+    <h2 class="lootText"></h2>
     <div class="lootImage"></div>
   </div>
 </div>`;
@@ -108,6 +130,7 @@ var wellSpringContent = `<h1 class="ws-header">THE WELLSPRING</h1>
   <h2 class="dif">Difficulty: Normal
   </h2>
   <h2 class="modifiers">Modifiers: Raider Shield, Chaff</h2>
+  <hr />
   <div class="locationMapContainer">
     <div class="locationMap"></div>
   </div>

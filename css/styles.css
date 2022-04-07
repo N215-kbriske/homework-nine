@@ -150,6 +150,7 @@ nav a {
   max-width: 1100px;
   flex-direction: column;
   align-items: center;
+  margin-top: 25px;
 }
 .lost-sector-content .locationMapContainer .locationMap {
   width: 1100px;
@@ -254,6 +255,7 @@ nav a {
   max-width: 1100px;
   flex-direction: column;
   align-items: center;
+  margin-top: 25px;
 }
 .nightfall-content .locationMapContainer .locationMap {
   width: 1100px;
@@ -358,6 +360,7 @@ nav a {
   max-width: 1100px;
   flex-direction: column;
   align-items: center;
+  margin-top: 25px;
 }
 .raid-content .locationMapContainer .locationMap {
   width: 1100px;
@@ -387,12 +390,42 @@ nav a {
   background-position: center;
   margin-bottom: 70px;
 }
+.raid-content .lootContainer2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+.raid-content .lootContainer2 .weaponText {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.raid-content .lootContainer2 .raidExotic {
+  margin: 0px auto 20px auto;
+}
+.raid-content .lootContainer2 .raidExotic .item {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.raid-content .lootContainer2 .raidWeapons {
+  display: grid;
+  grid-template-columns: 0fr 0fr 1fr;
+  margin: 0 auto;
+  grid-gap: 25px;
+}
+.raid-content .lootContainer2 .raidWeapons .item {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 .raid-content .lootContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .raid-content .lootContainer .lootText {
   font-family: Arial, Helvetica, sans-serif;
@@ -519,6 +552,7 @@ nav a {
   max-width: 1100px;
   flex-direction: column;
   align-items: center;
+  margin-top: 25px;
 }
 .ws-content .locationMapContainer .locationMap {
   width: 1100px;

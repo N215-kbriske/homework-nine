@@ -107,6 +107,7 @@
     max-width: 1100px;
     flex-direction: column;
     align-items: center;
+    margin-top: 25px;
 
     .locationMap {
       width: 1100px;
@@ -127,7 +128,7 @@
     margin-top: 20px;
 
     .symbols {
-        font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     .symbolImage {
@@ -141,15 +142,56 @@
     }
   }
 
+  .lootContainer2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-top: 0px;
+
+    .weaponText {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .raidExotic {
+      margin: 0px auto 20px auto;
+
+      .item {
+        // background-image: url(../images/weapons/collective-obligation.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        // border: 2px solid white;
+      }
+    }
+
+    .raidWeapons {
+      display: grid;
+      grid-template-columns: 0fr 0fr 1fr;
+      margin: 0 auto;
+      grid-gap: 25px;
+      // border: 2px solid red;
+
+      .item {
+        // background-image: url(../images/weapons/collective-obligation.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        // border: 2px solid white;
+      }
+    }
+  }
+
   .lootContainer {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
 
     .lootText {
-        font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     .lootImage {
