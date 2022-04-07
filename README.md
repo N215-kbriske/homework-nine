@@ -6,7 +6,7 @@ https://in-info-web4.informatics.iupui.edu/~kbriske/homework-eight
 ## Purpose
 - Teach you how to set up a simple MVC project
 - Teach you how to interact with another js file
-- Display information on a page. 
+- Display information on a page
 - Interact with elements with jQuery
 
 ## Task
@@ -15,6 +15,6 @@ https://in-info-web4.informatics.iupui.edu/~kbriske/homework-eight
 - Add content to the page when you click on a link by using the MVC model and jQuery
 - Use only one page and load all the content onto that page 
 - Your site should be fully developed with content
-- Upload your project to Github and Web4 and add your Web4 link to the README file.  
+- Upload your project to Github and Web4 and add your Web4 link to the README file
 
 Enjoy!
