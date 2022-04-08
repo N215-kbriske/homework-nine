@@ -1,7 +1,7 @@
 # Homework Nine
 
 Web4 Link:
-https://in-info-web4.informatics.iupui.edu/~kbriske/homework-eight
+https://in-info-web4.informatics.iupui.edu/~kbriske/homework-nine
 
 ## Purpose
 - Teach you how to set up a simple MVC project
